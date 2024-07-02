@@ -86,6 +86,27 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
+# Only  Links formats are  accepted for this Var value.
+CHANNEL_SUDO = getenv(
+    "CHANNEL_SUDO", "nxcsfbd"
+)  # معرف قناتك بدون @
+YAFA_NAME = getenv(
+    "YAFA_NAME", "ﻟﹻۧۦ. ﹻۧﺴﹻۧۦﹻۧﻠﹻۧۦﹻۧﻂﹻۧۦﹻۧﺂﺂن"
+)  # اسم قناتك
+YAFA_CHANNEL = getenv(
+   " YAFA_CHANNEL", "https://t.me/nxcsfbd"
+)  # رابط قناتك
+SUDO_USER =getenv(
+    "SUDO_USER", "https://t.me/LLPPL"
+)  # رابط حسابك
+SUPPORT_CHANNEL = getenv(
+    "SUPPORT_CHANNEL", "https://t.me/nxcsfbd"
+)  # رابط قناتك
+SUPPORT_GROUP = getenv(
+    "SUPPORT_GROUP", "https://t.me/nxcsfbd"
+)  # رابط كروبك
+
+
 STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
