@@ -83,7 +83,7 @@ CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "7"))
 
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 
-TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
+TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "10485711"))
 # https://www.gbmb.org/mb-to-bytes
 
 # Only  Links formats are  accepted for this Var value.
